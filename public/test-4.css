@@ -1,0 +1,196 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+    background-size: cover ;
+    height: 150vh;
+}
+.box{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    background: white;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    width: 1100px;
+    height: 650px;
+}
+
+    
+.box .log{
+        float: left;
+        width: 50%;
+        background: none;
+        height:100%;
+        position:absolute;
+        font-size: 20px;
+        font-weight: 550;
+        padding: 0  30px;
+        box-sizing: border-box;
+        background: none;
+        box-shadow: 0 0 30px rgba(0, 0, 0, .08);
+
+    }
+.box .Reg{
+        float: right;
+        width: 50%;
+        background:none;
+        height: 100%;
+        position: relative;
+        font-size: 20px;
+        font-weight: 550;
+        padding: 0 30px;
+        box-sizing: border-box;
+        background: none;
+    }
+
+.box h2{
+    font-size: 25px;
+    padding: 0px 0 30px;
+}
+
+.box  label{
+    position: relative;
+    top: -25px;
+    left: 0px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    background: none;
+    color: #adadad;
+    pointer-events: none;
+    background:none;
+}
+
+.box input{
+    height: 100px;
+    width: 100%;
+    position: relative;
+
+}
+
+.log input{
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    height: 40px;
+    border: none;
+    border-bottom: 1px  solid   #adadad;
+    outline: none;
+}
+.Reg input{
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    height: 40px;
+    border: none;
+    border-bottom: 1px  solid   #adadad;
+    outline: none;
+}
+
+.log-user input:focus ~label,
+.log-user input:valid ~ label{
+    top: -55px;;
+    color: #298b83;
+    transition: .6s;
+}
+.Reg-user input:focus ~label,
+.Reg-user input:valid ~ label{
+    top: -55px;;
+    color: #298b83;
+    transition: .6s;
+}
+.frgt-pass input:focus ~label,
+.frgt-pass input:valid ~ label{
+    top: -5px;;
+    color: #298b83;
+    transition: .6s;
+}
+
+
+.log button{
+    width:15%;
+    height: 45px;
+    border: 1px solid;
+    border-radius: 2px;  
+    background: #1ea69a;
+    font-size: 14px;
+    color: #e9f4e9;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;}
+
+.log button:hover{
+    border-color: #349c68;
+    cursor:pointer
+}
+
+.Reg button{
+    width:15%;
+    height: 45px;
+    border: 1px solid;
+    border-radius: 2px;  
+    background: #ea723d;
+    font-size: 14px;
+    color: #e9f4e9;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;}
+    
+.Reg button:hover{
+    border-color: #f06d35;
+    cursor:pointer
+}
+
+
+
+
+
+
+.log .frgt-pass{
+    position: relative;
+    top: 32%;
+    width: 90%;   
+}
+.frgt-pass label{
+    position: absolute;
+    color: black;
+    top: 25px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    background: none;
+    color: #adadad;
+    pointer-events: none;
+    background:none;
+}
+
+.frgt-pass input{
+  margin-top: -50px;
+}
+
+.frgt-pass button{
+    position: absolute;
+    top: 60px;
+    width: fit-content;
+    border: 1px solid;
+    border-radius: 2px;  
+    background: #ea723d;
+}
+.frgt-pass button:hover{
+    border-color: #f06d35;
+    cursor:pointer}
+
+.hide button{
+    position: absolute;
+    top: 410px;
+    left: 25px;
+    width:fit-content;
+    height: 10px;
+    border: 1px solid;
+    border-radius: 2px;
+    background:none;
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: 550;
+    border: none;
+    }
+
